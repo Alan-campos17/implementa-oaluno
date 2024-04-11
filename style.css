@@ -1,15 +1,16 @@
-body{
-    background-color: rgb(1, 225, 255);
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+body {
+  background-color: rgb(1, 225, 255);
+  font-family: "Honk", system-ui;
 }
-h1{
-    
-    color: aliceblue;
+
+h1 span {
+  color: aliceblue;
   text-align: center;
-  
 }
 
-
-
- 
-
-
+#dias_restantes {
+  color: aqua;
+  font-size: 50px;
+}
